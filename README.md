@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Mario181091/Mario_content/blob/master/Senza%20titolo4.jpg">
+  <img width="460" height="300" src="https://raw.githubusercontent.com/Mario181091/Mario_content/master/credit_card_logo.png">
 </p>
 
 # PitE-AnalisysCreditApproval
