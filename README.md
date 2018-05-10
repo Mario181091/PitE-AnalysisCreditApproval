@@ -101,7 +101,7 @@ We choose to study first of all this attributes individually and afther we've be
 
 * Correlation between Income and Approval
 <p align="center">
-  <img width="660" height="300" src="https://raw.githubusercontent.com/Mario181091/Mario_content/master/Income_Approval.png">
+  <img width="660" height="300" src="https://raw.githubusercontent.com/Mario181091/Mario_content/master/income_App.png">
 </p>
 
 
