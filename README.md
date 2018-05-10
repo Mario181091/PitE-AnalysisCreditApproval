@@ -4,7 +4,7 @@
 
 # PitE-AnalisysCreditApproval
 
-[![M&M](https://img.shields.io/badge/m%26m-projects-blue.svg)](https://img.shields.io/badge/m%26m-projects-blue.svg)
+[![M&M](https://img.shields.io/badge/m%26m-projects-blue.svg)](https://img.shields.io/badge/m%26m-projects-blue.svg) [![HitCount](http://hits.dwyl.io/Mario181091/PitE-AnalysisCreditApproval.svg)](http://hits.dwyl.io/Mario181091/PitE-AnalysisCreditApproval)
 
 
 This is the fifth homework of the course "Python in the Enterprise", as requested has been analyze Credit Approval Data Set. The dataset analysed in this report is the Credit Approval dataset taken from the archives of the machine learning repository
@@ -16,11 +16,11 @@ variables represent various attributes of the individuals submitting the applica
 From the source of the dataset, it was observed that the names and values of the attributes have been changed to some generic and meaningless symbols to ensure the confidentiality and privacy of the applicants. So as to avoid confusion and for simplicity, the labels of some variables in our analysis have been assumed to be some working names according to the values in
 the attributes like:
 
-- A1 changed to Sex
-- A2 changed to Age
-- A8 changed to Years of work
-- A15 changed to Income
-- A16 changed to Approved. 
+- A1 changed to **Sex**
+- A2 changed to **Age**
+- A8 changed to **Years of work**
+- A15 changed to **Income**
+- A16 changed to **Approved** 
 
 This assumption is common to find in any credit approval dataset and somewhat fit our data. 
 
@@ -28,12 +28,12 @@ This assumption is common to find in any credit approval dataset and somewhat fi
 ## Data Transformations
 
 As mentioned, the data in this analysis contains categorical values that are transformed to binary values or factors 1s and 0s.
-Approved variable have values '+' and '-' in original dataset and with our assumption '+' means granted changed to 1 and '-' changedto 0. Similarly, with attributes Sex having values 'a' changed to 0 representing male and 'b' changed to 1.
+Approved variable have values '+' and '-' in original dataset and with our assumption '+' means **granted** changed to 1 and '-' changed to 0. Similarly, with attributes Sex having values 'a' changed to 0 representing male and 'b' changed to 1.
 
 
 ## Missing data Treatment
 
-On investigating the dataset, the missing values are labelled as '?'; so in case that we consider attribute with continous values, we replace this label with the mean of all values of the attribute, in case that we consider binary attribute we replace tha label of missing values with a random choice between 0 and 1. 
+On investigating the dataset, the missing values are labelled as **'?'**; so in case that we consider attribute with continous values, we replace this label with the mean of all values of the attribute, in case that we consider binary attribute we replace tha label of missing values with a random choice between 0 and 1. 
 
 ## Getting Started
 
@@ -48,21 +48,21 @@ On investigating the dataset, the missing values are labelled as '?'; so in case
   ```shell
   $ python --version
   ```
- * In order to run this project is also important use numpy, pandas and matplotlib
-                                                   
-  Install it with:
+ * In order to run this project is also important use numpy, pandas and matplotlib.
+   Install it with:   
   
-  ```shell
-  $ pip install --user numpy 
+   ```shell
+   $ pip install --user numpy 
   
-  $ pip install --user pandas
+   $ pip install --user pandas
   
-  $ pip install --user matplotlib
+   $ pip install --user matplotlib
   
-  ```
+   ```
   
 ## Analysis
-In order to make our analysis, we have been concentrating this whole time on the main attributes that are common in any credit approval dataset, like Age, Years of york, sex or income of the applicant. We choose to study first all this attributes individually and afther we've been trying to figure out the correlation that each of these have with the positive or negative approval.
+In order to make our analysis, we have been concentrating this whole time on the main attributes that are common in any credit approval dataset, like **Age, Years of york, Sex or Income** of the applicant. 
+We choose to study first of all this attributes individually and afther we've been trying to figure out the correlation that each of these have with the positive or negative approval.
 
 **Differnt type of Attributes**
 
@@ -99,7 +99,7 @@ In order to make our analysis, we have been concentrating this whole time on the
 </p>
 
 
-* * Correlation between Income and Approval
+* Correlation between Income and Approval
 <p align="center">
   <img width="660" height="300" src="https://raw.githubusercontent.com/Mario181091/Mario_content/master/Income_Approval.png">
 </p>
